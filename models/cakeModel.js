@@ -12,7 +12,7 @@ const cakeSchema = new mongoose.Schema({
         type: Date, default: Date.now()
     }
 })
-const cakeModel = mongoose.model("caks", cakeSchema)
+const cakeModel = mongoose.model("cakes", cakeSchema)
 exports.cakeModel = cakeModel;
 
 exports.validcake = (_bodyData) => {
